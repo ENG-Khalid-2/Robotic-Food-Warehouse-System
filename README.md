@@ -14,6 +14,7 @@ To develop an autonomous robotic arm that:
 - Picks up items and places them on a central table.
 - Moves the items to a designated output container.
 - Operates within a fixed working environment.
+![pic3](pic3.png)
 
 ---
 
@@ -26,15 +27,17 @@ To develop an autonomous robotic arm that:
 5. Place the item on the working table for sorting/processing.
 6. Transfer the item to the output box.
 7. Repeat until all items are processed.
+![pic5](pic5.png)
 
 ---
 
 ## 🤖 Robot Design
 
-- **Type:** 6-DOF Industrial Robotic Arm
+- **Type:** 5-DOF Industrial Robotic Arm
 - **Mounted on:** Central workstation table
 - **Functions:** Pick and place items across three shelves
 - **Control:** Programmed to operate autonomously
+![pic6](pic6.png)
 
 ---
 
@@ -47,30 +50,9 @@ To develop an autonomous robotic arm that:
 | Central Table | Workspace for sorting and temporary placement|
 | Output Box    | Final drop-off area for processed items      |
 
----
-
-## 🖼️ System Layout Images
-
-### 🔹 Top View
-![Top View](./pic1.png)
-
-### 🔹 Isometric View
-![Isometric View](./pic2.png)
-
-### 🔹 Front View
-![Front View](./pic3.png)
-
-### 🔹 Working Envelope Visualization
-![Working Envelope](./pic4.png)
 
 ---
 
-## 🛠️ Tools Used
-
-- **TinkerCAD** – For 3D design and layout
-- **Simulation Tools** – To test working envelope and robot arm motion
-
----
 
 ## 📦 Future Improvements
 
@@ -79,10 +61,22 @@ To develop an autonomous robotic arm that:
 - Use AI for object classification and shelf organization.
 
 ---
+## 🔄 Working Space and Dead Zone
 
-## 👨‍💻 Author
+### 🔹 Working Space (Envelope)
+The working space is the reachable 3D area around the robotic arm where it can perform operations. In this design, it covers:
+- All storage shelves
+- The center table
+![pic4](pic4.png)
 
-Designed by [Your Name]  
-[Your University or Team Name]
+
+### 🔸 Dead Zone
+Dead zones are areas that the robot cannot access due to physical limitations or obstructions. In this system, dead zones include:
+- Behind or above the tall shelves
+- Corners outside the robot’s arm radius
+- Areas beyond the robot’s base rotation limits
+
+
+
 
 ---
